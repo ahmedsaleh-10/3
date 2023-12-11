@@ -1,0 +1,539 @@
+body {
+    font-family: 'Droid Arabic Kufi';
+    direction: rtl;
+    text-align: right;
+    margin: 0;
+    background-color: #800a0a;
+}
+
+.head {
+    border-top: 0px solid #cdcdcd;
+    background: rgba(0, 0, 0, 0) url(https://www.youm7.com/images/bg.png) repeat scroll center center;
+    min-height: 60px;
+}
+
+header,
+.news {
+    background-color: white;
+}
+
+.info,
+.menuone {
+    width: 75%;
+    width: 700px;
+    margin: auto;
+    max-width: 900px;
+    overflow: hidden;
+    text-align: right;
+    display: flex;
+}
+
+.menuone li {
+    background-color: #3A3A3A;
+    display: flex;
+    width: 12.5%;
+    overflow: hidden;
+    text-align: center;
+    padding-inline-start: 0px;
+    float: none;
+    clear: both;
+}
+
+.menuone li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menuone li a:hover {
+    color: red;
+}
+
+.menuone .more ul {
+    left: inherit!important;
+    width: 180px !important;
+    background-color: #3A3A3A;
+    list-style: none;
+    display: none;
+    margin-top: 25px;
+}
+
+.menuone .more li {
+    min-width: 200px !important;
+    clear: both !important;
+    float: none !important;
+}
+
+.tomore {
+    display: block;
+    height: 25px;
+    padding-top: 0 !important;
+}
+
+.more:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 2000000000000;
+}
+
+.secoflogo {
+    width: 80%;
+    width: 750px;
+    margin: auto;
+    max-width: 900px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.containeroflogo {
+    display: inline-flex;
+}
+
+.photologo {
+    margin-top: 25px;
+}
+
+.photocon {
+    margin-right: 10px;
+}
+
+.containerone {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background-color: #3A3A3A;
+}
+
+.title li {
+    background-color: #3A3A3A;
+    display: inline-table;
+    width: 12%;
+    overflow: hidden;
+    text-align: center;
+    padding-inline-start: 0px;
+    float: none;
+    clear: both;
+}
+
+.containerb {
+    display: flex;
+    background-color: #3A3A3A;
+}
+
+.ticker,
+.search,
+.title {
+    width: 50%;
+}
+
+.title-container {
+    width: 100%;
+    display: flex;
+}
+
+.tickersIco,
+.Ico {
+    width: 25%;
+}
+
+.search form,
+.group {
+    display: flex;
+    width: 100%;
+}
+
+.buttunsearch {
+    width: 25%;
+}
+
+.search2 {
+    width: 75%;
+    border-radius: 5px;
+}
+
+.empty:empty {
+    background-color: #eee;
+    width: 80%;
+    height: 80px;
+    margin: auto;
+}
+
+.news {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.row {
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.right-Content {
+    margin-right: 5px;
+    width: 60%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.left-Content {
+    width: 40%;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.right-Content h2,
+.left-Content h2 {
+    background: #5D5D5D;
+    margin: 0px;
+    padding: 6px 10px;
+    color: #FFF;
+    border-right: 10px solid #8e8e8e;
+}
+
+.right-Content h2 a,
+.left-Content h2 a {
+    text-decoration: none;
+}
+
+.right-Content h2 a:hover,
+.left-Content h2 a:hover {
+    background-image: url("https://img.youm7.com/images/general/titleHBG.gif?1");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.right-Content h2 a,
+.left-Content h2 a {
+    font-family: 'Droid Arabic Kufi', Tahoma;
+    font-size: 12px;
+    color: #FFF;
+    display: block;
+    font-weight: bold;
+}
+
+.right-Content .bigsec {
+    margin-top: 0px;
+}
+
+.bigsec {
+    padding: 10px;
+    background: #F0F0F0;
+    min-height: 160px;
+    border-bottom: 2px solid #FFF;
+}
+
+.bigsec:hover {
+    background: #D7D7D7;
+}
+
+.bigsecImg {
+    float: right;
+}
+
+.bigsecImg img {
+    border: 1px solid #999;
+    max-width: 170px;
+    max-height: 130px;
+    margin-left: 10px;
+}
+
+.bigsec h3 {
+    line-height: 20px;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bigsec h3 a {
+    font-family: ;
+    color: #df2829;
+    text-align: right;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bigsec:first-of-type h3 a {
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.bigsec h3 a:hover {
+    text-decoration: underline;
+}
+
+.bigsec h4 a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #999;
+}
+
+.titleimg:hover,
+.titleimgone:hover {
+    background: #DCDCDC;
+}
+
+.bigsecImg {
+    float: right;
+}
+
+.right-Content {
+    display: block;
+    width: 60%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sections {
+    display: block;
+    width: 100%;
+}
+
+.fristsec,
+.write {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secone,
+.Writer {
+    width: 50%;
+    display: flex;
+    background-color: #eee;
+    margin-bottom: 3px;
+}
+
+.secone:hover {
+    background-color: #DCDCDC;
+}
+
+.imgsecone {
+    display: flex;
+    width: 40%;
+    margin-left: 10px;
+    padding: 10px;
+    max-height: 100px;
+}
+
+.img-responsive1 {
+    width: 100%;
+    border: 1px solid #999;
+}
+
+.secone h3 {
+    width: 60%;
+}
+
+.secone h3 a {
+    line-break: anywhere;
+    text-decoration: none;
+    color: #000;
+}
+
+.secone h3 a:hover {
+    text-decoration: underline;
+}
+
+.more-section {
+    margin-bottom: 11px;
+    text-align: end;
+    background: #eee;
+    margin-top: 2px;
+}
+
+.conofsec2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.secondsec {
+    width: 33%;
+}
+
+.secondsec h2 {
+    margin-left: 3px;
+}
+
+.mor-section {
+    text-align: end;
+    background-color: #eee;
+}
+
+.sec {
+    background: #EEE;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.img-responsive2 {
+    width: 60%;
+}
+
+.sec h3 {
+    margin: 3px;
+}
+
+.sec h3 a {
+    color: black;
+    text-decoration: none;
+}
+
+.sec h3 a:hover {
+    color: red;
+}
+
+.p {
+    margin: 0;
+    margin-top: 3px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pimg {
+    width: 80%;
+}
+
+.wirteimg {
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+.img-responsive3 {
+    width: 60%;
+    border: 1px solid #999;
+    margin-right: 5px;
+    margin-top: 5px;
+    max-height: 60px;
+}
+
+.h a {
+    color: red;
+    text-decoration: none;
+}
+
+.hh a {
+    color: black;
+    text-decoration: none;
+}
+
+.hh a:hover {
+    text-decoration: underline;
+}
+
+.topTop {
+    z-index: 9999999;
+    max-width: 60px;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    display: block;
+}
+
+.footer {
+    background: #3A3A3A;
+    padding: 5px 15px 15px;
+    display: flex;
+}
+
+.containerfoot {
+    width: 100%;
+    padding: 0px;
+    max-width: 960px;
+    display: flex;
+}
+
+.footermenu {
+    width: 66.66666%;
+    float: right;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+}
+
+.footerMenu ul {
+    padding: 12px;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.footerMenu li {
+    float: right;
+    width: 33%;
+    margin-top: 3px;
+    list-style: none;
+    display: flex;
+}
+
+.footerMenu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerMenu li a :hover {
+    text-decoration: none;
+    color: red;
+}
+
+.empty2 {
+    background: #2D2D2D;
+    padding: 15px;
+    height: 80px
+}
+
+.socialfooter {
+    border-right: 1px solid black;
+    margin-top: 20px;
+    width: 33.333333%;
+    float: right;
+}
+
+.footer-logo {
+    margin: inherit;
+    margin-right: 25px;
+    display: block;
+    max-width: 206px;
+}
+
+.footer-logo a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.img-responsive2 {
+    border-radius: 20px;
+}
+
+.newFooterMenu {
+    text-align: center;
+}
+
+.newFooterMenu a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.newFooterMenu a:hover {
+    color: red;
+    text-decoration: none;
+}
